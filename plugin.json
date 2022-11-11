@@ -1,10 +1,10 @@
 {
-	"id": "httpapi-procedures",
-  "minversion": 202000300000,
+	"id": "http-utility",
+	"minversion": 202000300000,
 	"info": {
-		"name": "HTTP requests",
+		"name": "HTTP utility",
 		"version": "0.0.2",
-		"author": "2231puppy",
-		"description": "A simple plugin to allow communication with an external API via HTTP requests"
+		"author": "2231puppy and ddemile",
+		"description": "A plugin to allow communication with an external API via HTTP requests"
 	}
 }
