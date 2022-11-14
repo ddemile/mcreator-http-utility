@@ -1,0 +1,30 @@
+{
+	"message0": "Make an HTTP POST request to url %1 with json string %2",
+	"args0": [
+		{
+			"type": "input_value",
+			"name": "url",
+			"check": "String"
+		},
+		{
+			"type": "input_value",
+			"name": "json",
+			"check": "String"
+		}
+	],
+	"inputsInline": true,
+	"previousStatement": null,
+	"nextStatement": null,
+	"colour": 350,
+	"mcreator": {
+		"toolbox_id": "http",
+		"toolbox_init": [
+			"<value name=\"url\"><block type=\"text\"></block></value>",
+			"<value name=\"json\"><block type=\"text\"><field name=\"TEXT\">{}</field></block></value>"
+		],
+		"inputs": [
+			"url",
+			"json"
+		]
+	}
+}
