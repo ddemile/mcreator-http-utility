@@ -16,7 +16,7 @@
 	"output": "String",
 	"colour": 350,
 	"mcreator": {
-		"toolbox_id": "http",
+		"toolbox_id": "http-utility",
 		"toolbox_init": [
 			"<value name=\"url\"><block type=\"text\"><field name=\"url\"></field></block></value>",
 			"<value name=\"json\"><block type=\"text\"><field name=\"TEXT\">{}</field></block></value>"
