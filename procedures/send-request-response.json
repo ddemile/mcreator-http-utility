@@ -1,0 +1,19 @@
+{
+	"message0": "Send the HTTP request %1 and get response",
+	"args0": [
+		{
+			"type": "input_value",
+			"name": "request",
+			"check": "HttpRequest"
+		}
+	],
+	"inputsInline": true,
+	"output": "String",
+	"colour": 350,
+	"mcreator": {
+		"toolbox_id": "http-utility",
+		"inputs": [
+			"request"
+		]
+	}
+}

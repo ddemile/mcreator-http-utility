@@ -1,5 +1,5 @@
 {
-	"message0": "Make an HTTP POST request to url %1 with json string %2",
+	"message0": "[OUTDATED] Make an HTTP POST request to url %1 with json string %2",
 	"args0": [
 		{
 			"type": "input_value",

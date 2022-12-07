@@ -3,7 +3,7 @@
 	"minversion": 202000300000,
 	"info": {
 		"name": "HTTP utility",
-		"version": "1.0.1",
+		"version": "1.1.0",
 		"author": "2231puppy and ddemile",
 		"description": "A plugin to allow communication with an external API via HTTP requests"
 	}

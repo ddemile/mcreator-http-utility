@@ -1,5 +1,5 @@
 {
-	"message0": "[OUTDATED] Do an HTTP POST request to url %1 with json string %2 and get response",
+	"message0": "Create an HTTP POST request to url %1 with json body %2",
 	"args0": [
 		{
 			"type": "input_value",
@@ -8,22 +8,22 @@
 		},
 		{
 			"type": "input_value",
-			"name": "json",
+			"name": "body",
 			"check": "String"
 		}
 	],
 	"inputsInline": true,
-	"output": "String",
+	"output": "HttpRequest",
 	"colour": 350,
 	"mcreator": {
 		"toolbox_id": "http-utility",
 		"toolbox_init": [
 			"<value name=\"url\"><block type=\"text\"><field name=\"url\"></field></block></value>",
-			"<value name=\"json\"><block type=\"text\"><field name=\"TEXT\">{}</field></block></value>"
+			"<value name=\"body\"><block type=\"text\"><field name=\"TEXT\">{}</field></block></value>"
 		],
 		"inputs": [
 			"url",
-			"json"
+			"body"
 		]
 	}
 }

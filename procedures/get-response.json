@@ -1,5 +1,5 @@
 {
-	"message0": "Do an HTTP GET request to url %1 and get response",
+	"message0": "[OUTDATED] Do an HTTP GET request to url %1 and get response",
 	"args0": [
 		{
 			"type": "input_value",

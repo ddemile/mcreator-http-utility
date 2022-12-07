@@ -1,10 +1,10 @@
 {
-	"message0": "[OUTDATED] Make an HTTP GET request to url %1",
+	"message0": "Send the HTTP request %1",
 	"args0": [
 		{
 			"type": "input_value",
-			"name": "url",
-			"check": "String"
+			"name": "request",
+			"check": "HttpRequest"
 		}
 	],
 	"inputsInline": true,
@@ -13,11 +13,8 @@
 	"colour": 350,
 	"mcreator": {
 		"toolbox_id": "http-utility",
-		"toolbox_init": [
-			"<value name=\"url\"><block type=\"text\"></block></value>"
-		],
 		"inputs": [
-			"url"
-		]
+			"request"		
+        ]
 	}
 }
